@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aravind pandiyan | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <img src="hero1.jpg" alt="logo">
+        <span>Portfolio</span>
+    </div>
+
+    <nav>
+        <ul>
+            <li onclick="display('hero')" class="active">HOME</li>
+            <li id="aboutSection">ABOUT</li>
+            <li onclick="display('skills')">SKILLS</li>
+            <li onclick="display('projects')">PROJECTS</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-left">
+        <h1>
+            ARAVIND <br>
+            <SPAN style="color: #f2a705;">PANDIYAN</SPAN>
+        </h1>
+
+        <div class="tags">
+            <span style="font-size: medium;">#WEB DEVELOPER</span>
+
+        </div>
+
+        <div class="profile-card">
+            <img src="hero.jpg" alt="profile">
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <p>
+            Welcome to my portfolio! I'm <span style="color: yellow;">ARAVIND PANDIYAN </span><br> 
+            I am an aspiring Web Developer with hands-on experience in HTML, CSS, Bootstrap, and JavaScript. I enjoy building responsive websites and continuously learning new technologies to improve my development skills. I am eager to contribute to real-world projects and grow as a professional developer.
+        </p>
+
+        <button class="cta-btn">
+            show projects <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+          <button class="cta-btn">
+            download cv  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+    <h2 class="section-title">ABOUT ME</h2>
+    <p class="section-text">
+        I am a passionate front-end developer with a strong foundation in HTML,
+        CSS, Bootstrap, and JavaScript. I focus on creating clean, responsive,
+        and user-friendly interfaces while continuously improving my skills
+        through hands-on projects.
+    </p>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section">
+    <h2 class="section-title">SKILLS</h2>
+
+    <div class="skills-wrapper">
+        <div class="skill">
+            <span>HTML</span>
+            <div class="bar"><div class="fill html"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+            <div class="bar"><div class="fill css"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>Bootstrap</span>
+            <div class="bar"><div class="fill bootstrap"></div></div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="bar"><div class="fill js"></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section">
+    <h2 class="section-title">PROJECTS</h2>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>HTML, CSS</p>
+            <div class="project-links">
+                <a href="#" target="_blank">Live</a>
+                <a href="#" target="_blank">Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Responsive Landing Page</h3>
+            <p>HTML, CSS, Bootstrap</p>
+            <div class="project-links">
+                <a href="#" target="_blank">Live</a>
+                <a href="#" target="_blank">Code</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="section">
+    <h2 class="section-title">CONTACT</h2>
+    <p class="section-text">
+        Feel free to reach out for collaborations or opportunities.
+    </p>
+
+    <div class="contact-links">
+        <a href="mailto:yourmail@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
